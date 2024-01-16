@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Educational World</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+
+    .featured-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .featured-content {
+      width: 100%;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .quick-links {
+      margin-bottom: 30px;
+    }
+
+    .quick-links a {
+      display: block;
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #3498db;
+      color: #fff;
+      text-decoration: none;
+      text-align: center;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .quick-links a:hover {
+      background-color: #2980b9;
+    }
+
+    .upcoming-events {
+      padding: 20px;
+      background-color: #eee;
+    }
+  </style>
+  <script defer src="app.js"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1 style="margin-bottom: 0;">Home - Educational World</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="featured-section">
+    <div class="featured-content">
+      <h2>Featured Content</h2>
+      <button onclick="location.href='maths.html'">Solve Interesting Math Questions</button>
+      <div id="mathQuestionsContainer"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Welcome to My Educational Website</h2>
+    <p>Welcome to "Educational World" – a dedicated space for education, providing resources and information to enhance the learning experience. Explore the various sections to discover more about me, and stay connected with valuable educational content.</p>
+    <button onclick="location.href='routine.html'">Class VIII-D Class Routine</button>
+    <button onclick="location.href='books.html'">Class VII-D NCTB Books 2024</button>
+  </section>
+
+  <section class="upcoming-events">
+    <h2>Upcoming Events</h2>
+    <p>Stay tuned for exciting events coming up in the educational world.</p>
+    <a href="events.html">View Events</a>
+  </section>
+
+  <section class="quick-links">
+    <h2>Quick Links</h2>
+    <a href="routine.html">Class Routine</a>
+    <a href="books.html">Class VII NCTB Books</a>
+
+  </section>
+
+</body>
+
+</html>

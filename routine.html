@@ -7,43 +7,61 @@
   <link rel="stylesheet" href="styles.css">
   <style>
 
-    table {
-      border-collapse: collapse;
-      width: 80%;
-      margin: 20px;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      border-radius: 8px;
-      overflow: hidden;
-      margin-bottom: 50px;
-      border: 2px solid #000;
-    }
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  border: 2px solid #000;
+}
 
-    th, td {
-      border: 1px solid #000;
-      text-align: left;
-      padding: 15px;
-      transition: background-color 0.3s;
-    }
+th, td {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
 
-    th {
-      background-color: #4CAF50;
-      color: white;
-      font-weight: bold;
-      text-transform: uppercase;
-      font-size: 14px;
-    }
+th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
 
-    td {
-      background-color: #ddd; 
-      color: #333; 
-      font-size: 14px;
-      border-radius: 5px;
-    }
+td {
+  background-color: #ddd; 
+  color: #333; 
+  font-size: 14px;
+  border-radius: 5px;
+}
 
-    tr:hover {
-      background-color: #ddd;
-    }
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Responsive styles for tablets and larger */
+@media only screen and (max-width: 768px) {
+  table {
+    width: 100%;
+  }
+
+  th, td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  th {
+    text-align: center;
+  }
+}
+
   </style>
 </head>
 <body>

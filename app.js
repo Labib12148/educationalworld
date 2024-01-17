@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const operatorOptions = ["+", "-", "*", "/"];
       const operator = operatorOptions[generateRandomNumber(0, 3)];
 
-      // Use num1 and num2 for all cases
+
       num1 = generateRandomNumber(1, 20);
       num2 = generateRandomNumber(1, 10);
       num3 = generateRandomNumber(1, 5);
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
       let question = "";
       let answer;
 
-      // Build the question based on operator and available numbers
+
       switch (operator) {
         case "+":
           question = `(${num1} - ${num2}) / ${num3 || 1}`;
